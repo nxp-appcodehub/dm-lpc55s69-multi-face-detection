@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-lpc55s69-multi-face-detection" type="demo" format="projectfile" name="lpc55s69 multi face detection">
+    <display_title>
+        LPC55S69 Multi Face Detection
+    </display_title>
+    <overview>
+        <![CDATA[This demo demonstrates the AI capabilities of the LPC55S69. It displays the image captured by the camera on the LCD screen and performs face detection.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mdk"></toolchain>
+    </toolchains>
+    <families>
+        <family name="lpc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S69"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="i2c"></peripheral>
+        <peripheral name="spi"></peripheral>
+        <peripheral name="timer"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="aiml"></category>
+    </categories>
+</data:item>
